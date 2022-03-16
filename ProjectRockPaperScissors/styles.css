@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.selection {
+    font-size: 3em;
+    border: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.1s;
+}
+
+.selection:hover {
+    transform: scale(1.5);
+}
+
+.results {
+    font-size: 2em;;
+}
+
+button {
+    font-size: 1em;
+    width: 25%;
+    height: 2em;
+    border-radius: 25px;
+    background-color: #FFF;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
