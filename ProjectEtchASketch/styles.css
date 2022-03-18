@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC;
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+#black {
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+#erasor {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+#rainbow {
+    border-radius: 25px;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: white;
+    font-size: 25px;
+}
+
+#reset {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+#boardSize {
+    font-size: 25px;
+}
+
+#colorPicker {
+    font-size: 25px;
+}
